@@ -38,19 +38,17 @@ Five neural network architectures (`model1_architecture` to `model5_architecture
 
 ## Feature Importance Analysis
 
-- A Random Forest classifier is trained to estimate feature importances based on it 
+- A Random Forest classifier is trained on all the features/data to estimate feature importances based on it 
 - Permutation importance for the neural architectures is computed using a custom scoring function based on the F1-score(combination of precision & recall)
-- A combined plot shows both Random Forest feature importances and permutation importance for visual comparison in order to understand trends in seeing which spectral/ise features are important
+- A combined plot shows both Random Forest feature importances and permutation importance for visual comparison in order to understand trends in seeing which spectral/ise features are important towards predicting rainfall
 
-## Hyperparameter Tuning
-
+## Reflectancs vs Absorbancs using ML
+here we make a comparison to see which spectral information(Absorbance or Reflectance) produces better prediction of rainfall. Before proceeding to this section, first extract mmergedAS_df and mergedRS_df with just the spectral features from the datapreprocessing section. Based on user input- we feed a dataframe either containing reflectance spectra or absorbance spectra to the model training
+- `rename_columns`: A utility function to rename columns with a specified prefix based on which spectral information is being used, facilitating the distinction between different feature sets.
+- `prepare_data`: Splits the dataset into training and test sets.
 - `train_random_forest`: A function that applies grid search cross-validation to find the best hyperparameters for a RandomForestClassifier.
 - `evaluate_model`: Evaluates the best model obtained from the grid search on the test set using precision and recall as the metrics.
 
-## Additional Utilities
-
-- `rename_columns`: A utility function to rename columns with a specified prefix, facilitating the distinction between different feature sets.
-- `prepare_data`: Encodes the target variable and splits the dataset into training and test sets.
 
 ## Execution Example
 
