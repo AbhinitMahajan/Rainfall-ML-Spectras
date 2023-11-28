@@ -54,6 +54,13 @@ here we make a comparison to see which spectral information(Absorbance or Reflec
 
 The notebook includes an example usage where specific architectures are selected, epochs and batch size are defined, and the model training is initiated. Following the training, the notebook presents feature importance analysis and concludes with hyperparameter tuning of a RandomForestClassifier. 
 
+
+## References 
+https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi  : Neural Network Understanding 
+https://www.youtube.com/watch?v=h291CuASDno : Neural Network Hyperparameters
+https://towardsdatascience.com/what-are-hyperparameters-and-how-to-tune-the-hyperparameters-in-a-deep-neural-network-d0604917584a : Neural Networks 
+
+
 ---
 
 End-users of this notebook should replace file paths and drop columns as per their dataset's needs. Adjustments in the model architecture, epochs, batch size, and threshold for classification can be made to tailor the model's performance to new data or different use cases.
