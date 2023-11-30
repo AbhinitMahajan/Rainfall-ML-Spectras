@@ -56,10 +56,10 @@ The notebook includes an example usage where specific architectures are selected
 
 
 ## References 
-https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi  : Neural Network Understanding. 
-https://www.youtube.com/watch?v=h291CuASDno : Neural Network Hyperparameters.
-https://towardsdatascience.com/what-are-hyperparameters-and-how-to-tune-the-hyperparameters-in-a-deep-neural-network-d0604917584a : Neural Networks. 
-sequential models.pdf : Personal notes to understand black box of sequential modelling 
+- https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi  : Neural Network Understanding. 
+- https://www.youtube.com/watch?v=h291CuASDno : Neural Network Hyperparameters.
+- https://towardsdatascience.com/what-are-hyperparameters-and-how-to-tune-the-hyperparameters-in-a-deep-neural-network-d0604917584a : Neural Networks. 
+- sequential models.pdf : Personal notes to understand black box of sequential modelling 
 
 ---
 
